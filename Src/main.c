@@ -57,6 +57,17 @@ static void Print(int y, char *s) {
 	oled_WriteString(s, Font_7x10, White);
 }
 
+static void Show_Help(void) {
+	oled_Fill(Black);
+	Print(0,  "Help:");
+	Print(14, "1 2 3  0-9: digit");
+	Print(26, "4 5 6  f: + - *");
+	Print(38, "7 8 9  =: result");
+	Print(50, "f 0 =  =: reset");
+	oled_UpdateScreen();
+	HAL_Delay(5000);
+}
+
 static void Calc_Show(void) {
 	char s[24];
 	oled_Fill(Black);
@@ -85,6 +96,7 @@ int main(void)
 	MX_I2C1_Init();
 	MX_USART6_UART_Init();
 	oled_Init();
+	Show_Help();
 	Calc_Show();
 
 	char last = 0;
