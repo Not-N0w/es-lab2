@@ -27,8 +27,8 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h ../Inc/i2c.h \
- ../Inc/main.h ../Inc/usart.h ../Inc/gpio.h ../Inc/kb.h ../Inc/sdk_uart.h \
- ../Inc/pca9538.h ../Inc/oled.h ../Inc/fonts.h ../Inc/fonts.h
+ ../Inc/main.h ../Inc/usart.h ../Inc/gpio.h ../Inc/kb.h ../Inc/oled.h \
+ ../Inc/fonts.h ../Inc/fonts.h
 ../Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Inc/stm32f4xx_hal_conf.h:
@@ -63,8 +63,6 @@ Src/main.o: ../Src/main.c ../Inc/main.h \
 ../Inc/usart.h:
 ../Inc/gpio.h:
 ../Inc/kb.h:
-../Inc/sdk_uart.h:
-../Inc/pca9538.h:
 ../Inc/oled.h:
 ../Inc/fonts.h:
 ../Inc/fonts.h:
