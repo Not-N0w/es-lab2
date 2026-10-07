@@ -1,0 +1,7 @@
+../Src/main.c:204:13:Calc_Press	8	static
+../Src/main.c:231:14:ToStr	48	static
+../Src/main.c:187:13:Get_Key	16	static
+../Src/main.c:241:13:Calc_Show	40	static
+../Src/main.c:133:6:SystemClock_Config	96	static
+../Src/main.c:74:5:main	16	static
+../Src/main.c:272:6:Error_Handler	0	static
